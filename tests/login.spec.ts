@@ -8,5 +8,4 @@ test('login test', async ({ page }) => {
  const login = new loginPage(page);
 
  await login.login('standard_user','secret_sauce');
- 
 });
